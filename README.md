@@ -2,12 +2,10 @@
 
 #### Summary <br/>
 The code finds duplicate certificate json objects based on the certificate fingerprint.
-It tries to find a balance between in-memory consumption and execution time.
 
 #### Input and Output<br/>
 The input to the code is a jsonlines file with each line corresponding to a json object.
-The code initially writes an output file for each duplicate fingerprint and finally merges them
-together to a final jsonlines file where each line corresponds to a json object of the format
+The code writes an output file where each line corresponds to a unique fingerprint json object and its duplicates of the format
 {"fingerprint":"0C:E4:AF:24:F1:AE:B1:09:B0:42:67:CB:F8:FC:B6:AF:1C:07:D6:5B", "certificates":[A, B, C]}
 
 #### Steps to run
