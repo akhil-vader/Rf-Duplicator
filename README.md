@@ -13,5 +13,5 @@ The code writes an output file where each line corresponds to a unique fingerpri
 * Run the requirements.txt
 * Make sure you have the input file in the project folder
 and set the name of the input file as the value of the INPUT_FILE
-* Run the python file 
+* Run the python file cert_duplicate_identifier_memory_scalable or cert_duplicate_identifier_runtime_optimized
 * Look for the output in the "output" directory
