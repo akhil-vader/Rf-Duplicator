@@ -6,7 +6,6 @@
 This code reads an input file of json objects containing certificate logs and finds duplicates based on fingerprints.
 The code avoids loading objects into memory and thereby  maintaining a balance of in-memory consumption and execution time.
 
-TODO: 1) What is the file meant for 2) what problem it is solving 3) what are the expected inputs 4) What kind of output 5) How to interpret the output 6) What are the dependencies and how to run the code
 """
 
 import time
